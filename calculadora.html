@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Calculadora de Estatística</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main_.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>Projetado</strong> por Matheus</a>
+					<nav id="nav">
+						<a href="index.html">Início</a>
+						<a href="calculadora.html">Calculadora</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Three -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Calculadora</h2>
+						<p>Calcule média, mediana, moda, desvio padrão, variância, e curtose. </p>
+						
+					</header>
+					<p>Informe os números (amostra), separados por vírgula</p>
+					<spam style="color: green">Exemplo: 4, 5, 8, 9, 10, 4...</spam>
+					<p class="alert-danger">Atenção: para informar números decimais escreva da seguinte forma: 10.6 (com ponto )</p>	
+						<form method="post" action="calc.php">
+							<input type="radio" name="op" value="1" checked> Amostral<br>
+							<input type="radio" name="op" value="2"> Populacional<br>
+						    <textarea id="contact_list" name="contact_list"></textarea>
+						    <input  type="submit" name="submit" value="Enviar" id="submit"/>
+						</form>			
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="css/jquery.min.js"></script>
+			<script src="css/skel.min.js"></script>
+			<script src="css/util.js"></script>
+			<script src="css/main.js"></script>
+
+	</body>
+</html>
